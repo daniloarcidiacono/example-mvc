@@ -1,0 +1,19 @@
+GET http://localhost:8080/example_mvc_war/random
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/example_mvc_war/random?min=5
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/example_mvc_war/random?max=3
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/example_mvc_war/random?min=10&max=20
+Cache-Control: no-cache
+
+###
