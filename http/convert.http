@@ -1,0 +1,36 @@
+POST http://localhost:3200/convert
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+  "value": "500",
+  "unit": "METERS",
+  "to": "KILOMETERS"
+}
+
+###
+
+POST http://localhost:3200/convert
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+  "value": "500",
+  "unit": "METERS",
+  "to": "GRAMS"
+}
+
+###
+
+POST http://localhost:3200/convert
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+  "unit": "WRONG"
+}
+
+###

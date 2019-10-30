@@ -1,0 +1,19 @@
+GET http://localhost:3200/random
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3200/random?min=5
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3200/random?max=3
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3200/random?min=10&max=20
+Cache-Control: no-cache
+
+###

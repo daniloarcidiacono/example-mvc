@@ -1,0 +1,31 @@
+# For a comprehensive list of endpoints, see
+# https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints
+GET http://localhost:3200/actuator/info
+Accept: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3200/actuator/health
+Accept: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3200/actuator/loggers
+Accept: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3200/actuator/env
+Accept: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3200/actuator/mappings
+Accept: application/json
+Cache-Control: no-cache
+
+###

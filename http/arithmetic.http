@@ -1,0 +1,24 @@
+GET http://localhost:3200/sum/2/2
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3200/sub/7/12
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3200/mul/4/3
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3200/div/4/5
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3200/div/4/0
+Cache-Control: no-cache
+
+###

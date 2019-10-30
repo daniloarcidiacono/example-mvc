@@ -1,0 +1,17 @@
+spring:
+  main:
+    banner-mode: 'off'
+
+server:
+  port: 3200
+
+management:
+  endpoints:
+    web:
+      exposure:
+        # * has a special meaning in YAML (anchors), so be sure to add quotes if you want to include (or exclude) all endpoints
+        include: "*"
+      base-path: "/actuator"
+  endpoint:
+    health:
+      show-details: always
